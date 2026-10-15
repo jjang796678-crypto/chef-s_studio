@@ -12,6 +12,7 @@ body{
     max-width: 1280px;
     margin: auto;
     background-color: rgb(255, 123, 123);
+    color: #000;
 }
 /* 전체 레이아웃 */
 .wrap{
