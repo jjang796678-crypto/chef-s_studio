@@ -10,8 +10,14 @@
     header{
         height: 65px ; 
     }
+    .nav{ 
+
+    }
     .menu{
         display: none;
+        position: absolute;
+        top: 45px;
+        left: 0;
     }
     .hamburger{
         display: block;
@@ -49,9 +55,9 @@
         font-size: 16px;
     }
     /* 리스트 */
-    .cardList ul {
+    /* .cardList ul {
         grid-template-columns: repeat(2,minmax(0, 1fr));
-    }
+    } */
 }
 /* 405 */
 @media (max-width :405px ) {
@@ -60,6 +66,7 @@
     }
     header h1{
         font-size: 22px;
+        font-family: 'BookkMyungjo';
     }
     /* 메인 */
     .introTxt h2 {

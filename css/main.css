@@ -1,6 +1,7 @@
+
+/* 초기화 */
 @import url(reset.css);
-/* 폰트 cdn */
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 /* 바디 */
 body{
     background-color: #999;
@@ -65,8 +66,9 @@ main {
     align-items: flex-end;
 }
 .introTxt h2 {
+    font-family: 'OwnglyphYuntaeng';
     font-size: 48px;
-    font-family: "Inter", sans-serif;
+    /* font-family: "Inter", sans-serif; */
     margin-bottom: 3%;
 }
 .introTxt p {
@@ -88,10 +90,11 @@ main {
 }
 /* 리스트 */
 .cardList ul {
-    gap: 32px;
+    gap: 32px 24px;
     /* display: flex; */
     display: grid ;
-    grid-template-columns: repeat(4,minmax(0, 1fr));
+    /* grid-template-columns: repeat(4,minmax(0, 1fr)); */
+    grid-template-columns: repeat(auto-fit , minmax(290px, 1fr)) ; 
 }
 .cardList > ul > li {
     border-radius: 6px;
